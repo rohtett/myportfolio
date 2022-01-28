@@ -13,6 +13,7 @@
 		text-align: justify;
 	}
 	#menu {
+		z-index: 1;
 		padding: 0;
 		text-align: center;
 	}
@@ -27,5 +28,9 @@
 	}
 	.h-purple:hover {
 		color: purple;
+	}
+	#email-link, #email-link:hover, #email-link:visited {
+		text-decoration: none;
+		color: black;
 	}
 }
