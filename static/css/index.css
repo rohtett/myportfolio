@@ -1,0 +1,7 @@
+@media screen and (min-width: 1200px) and (min-height: 850px){
+	body {
+		background-image: url("../media/selfie.jpg");
+		background-repeat: no-repeat;
+		background-position: right top;
+	}
+}
