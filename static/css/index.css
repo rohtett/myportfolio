@@ -13,10 +13,18 @@
 	}
 	#menu {
 		padding: 0;
-		display: inline;
 		text-align: center;
 	}
 	.menu-icon {
 		font-size: 25px;
+	}
+	.h-black:hover {
+		color: black;
+	}
+	.h-blue:hover {
+		color: blue;
+	}
+	.h-purple:hover {
+		color: purple;
 	}
 }
