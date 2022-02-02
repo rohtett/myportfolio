@@ -1,9 +1,14 @@
 # My Portfolio
 about my website
 ## User Experience
-who will use it?
+- Potential business owners who may wish to request a website to be made.
+- Other potential individuals who may want to commission a website made by me.
+- Potential employers who may wish to view my skillset as well as learn more about me. 
 ### User Stories
-why will they use it?
+- As the creator, I want people to be able to see my skill-set and experience what it is I can do with my programming knowledge. I want them to be able to learn about my design practices and see if it I can create something for the other users of the website.
+- Business owners, or other individuals who would otherwise want want to commission a website, would want to see if the websites I create is something they want for their business (or personal use) and to see if any of the qualities they are looking for is reflected within it.
+- As a potential employer, I would want to witness the design that the creator can produce, whether they are able to effectively manipulate all of the HTML and CCS features they have implemented. I may also want to test the limits of some of their functions such as responsiveness, and any bugs or faults in the code of functionality. 
+- An interested individual (of the three above) would further like to contact the creator about comissioning work or offering employ. 
 
 ### Wireframes
 - about 
@@ -19,14 +24,17 @@ why will they use it?
 ## Features
 
 ### All Pages
--[x] implemented feature
--[ ] non-implemented feature
+-[x] Fully operational menu which links to all pages of the website, including hover information since they are icons as opposed to named menu headers
+-[ ] 
 ### index.html
-
+-[x] A working "accordion"-style information display, which allows easy navigation between information without taking up a lot of room.
 ### portfolio.html
-
+-[ ] Thumbnails of portfolio's website pages.
+-[ ] Slider or scrolling information layout to ease the process of looking through the information.
 ### contact-me.html
-
+-[x] Working form output which allows the user to contact the owner.
+-[x] e-mail input field, following the HTML5 standard e-mail input format. 
+-[x] Form checkbox requesting if the user would like to receive addition information. 
 ## Technologies Used
 - [HTML5](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
 -- The structure of the website was developed with HTML5
