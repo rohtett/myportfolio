@@ -25,9 +25,9 @@ why will they use it?
 
 ### portfolio.html
 
-###contact-me.html
+### contact-me.html
 
-##Technologies Used
+## Technologies Used
 - [HTML5](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
 -- The structure of the website was developed with HTML5
 - [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
@@ -44,35 +44,35 @@ why will they use it?
 -- This program allowed me to easily commit and push my work to GitHub my repository
 - [GitHub](https://github.com/)
 -- GitHub not only is hosted my website, but also was used to track all of my commits and pushes into a remote repository. 
-##Testing 
+## Testing 
 ### User Stories
 
-###Responsive Testing
+### Responsive Testing
 
-###HTML and CSS Validation
+### HTML and CSS Validation
 I used the W3C HTML Validator tool to validate my HTML code.
 I used the W3C CSS Validator tool to validate my CSS code.
 ### Bugs and Problems Found
 
-##Deployment
+## Deployment
 I used GitHub Pages to deploy my website. It was produced as follows:
 1. Downloaded gitforwindows to enable the git terminal for Notepad++
 2. Intilise git `git init`
 3. `git add .` the files to commit them`git commit -m "first commit"` 
 4. 
 
-###Repository Link
+### Repository Link
 [link](link)
-###Running Code Locally
+### Running Code Locally
 How to run the code locally:
 1. Follow the link to my [GitHub repository](link)
 2. Click "Code" and select "Download ZIP"
 3. Once downloaded, extrade the ZIP file and launch `index.html` to open the landing page.
 
-##Credits
+## Credits
 ###Content
 
-###Media
+### Media
 
-###Acknowledgements
+### Acknowledgements
 - 
