@@ -34,3 +34,11 @@
 		color: black;
 	}
 }
+@media screen and (max-width: 1199px( {
+	#menu {
+		text-align: center;
+		z-index: 1;
+		display: flex!important;
+		order: 2;
+	}
+}
