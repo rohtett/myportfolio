@@ -19,8 +19,8 @@ why will they use it?
 ## Features
 
 ### All Pages
-[x] implemented feature
-[ ] non-implemented feature
+-[x] implemented feature
+-[ ] non-implemented feature
 ### index.html
 
 ### portfolio.html
@@ -50,8 +50,8 @@ why will they use it?
 ### Responsive Testing
 
 ### HTML and CSS Validation
-I used the W3C HTML Validator tool to validate my HTML code.
-I used the W3C CSS Validator tool to validate my CSS code.
+- I used the W3C HTML Validator tool to validate my HTML code.
+- I used the W3C CSS Validator tool to validate my CSS code.
 ### Bugs and Problems Found
 
 ## Deployment
