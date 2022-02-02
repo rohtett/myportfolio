@@ -7,14 +7,14 @@ why will they use it?
 
 ### Wireframes
 - about 
--- [small](wireframes/small-about) (xs and sm)
--- [large](wireframes/large-about) (md, lg and xl
+-- [small](wireframes/small-about.png) (xs and sm)
+-- [large](wireframes/large-about.png) (md, lg and xl
 - portfolio
--- [small](wireframes/small-portfolio) (xs and sm)
--- [large](wireframes/large-portfolio) (md, lg and xl
+-- [small](wireframes/small-portfolio.png) (xs and sm)
+-- [large](wireframes/large-portfolio.png) (md, lg and xl
 - contact-me 
--- [small](wireframes/small-contact) (xs and sm)
--- [large](wireframes/large-contact) (md, lg and xl
+-- [small](wireframes/small-contact.png) (xs and sm)
+-- [large](wireframes/large-contact.png) (md, lg and xl
 
 ## Features
 
