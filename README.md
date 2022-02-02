@@ -70,7 +70,7 @@ How to run the code locally:
 3. Once downloaded, extrade the ZIP file and launch `index.html` to open the landing page.
 
 ## Credits
-###Content
+### Content
 
 ### Media
 
