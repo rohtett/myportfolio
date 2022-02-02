@@ -10,21 +10,23 @@
 	<link rel="stylesheet" href="static/css/index.css">
 </head>
 <body>
-	<div class="container" id="wrapper">
-	<div class="row h-100">
-			<div class="col-sm-5 row" id="container">
-				<div class="col-sm-1 align-items-center d-flex">
-					<nav class ="d-flex flex-column" id="menu">
-						<a href="index.html"class="btn menu-icon fas fa-info-circle" data-toggle="tooltip" data-placement="left" title="about me"></a>
+	<div class="container" id="container">
+		<div class="row h-100" id="wrapper">
+		<!-- bootstrap grid https://getbootstrap.com/docs/4.0/layout/grid/ -->
+			<div class="col-md-5 row">
+				<div class="col-md-1 align-items-center d-sm-flex h-100">
+					<nav class ="" id="menu">
+					<!-- fontawesome stuff https://fontawesome.com/v6.0 -->
+						<a href="index.html"class="btn menu-icon fas fa-info-circle" data-toggle="tooltip" title="about me"></a>
 						<br>
 						<br>
-						<a class="btn menu-icon fas fa-file-powerpoint"href="my-portfolio.html" data-toggle="tooltip" data-placement="left" title="portfolio"></a>
+						<a class="btn menu-icon fas fa-file-powerpoint"href="my-portfolio.html" data-toggle="tooltip" title="portfolio"></a>
 						<br>
 						<br>
-						<a class="btn menu-icon fas fa-address-book" href="contact-me.html" data-toggle="tooltip" data-placement="left" title="contact details"></a>
+						<a class="btn menu-icon fas fa-address-book" href="contact-me.html" data-toggle="tooltip" title="contact details"></a>
 					</nav>
 				</div>
-				<div class="col-sm-10 d-flex align-items-center">
+				<div class="col-md-10 d-flex align-items-center h-100">
 					<div id="content">
 						<h3 class="h3 text-center"> Rohit Naidu</h3>
 						<h6 class="h6 text-center"> Aspiring Web Developer</h6>
@@ -38,29 +40,35 @@
 						<p>Love brain teasers, intellectual challenges and puzzles.</p>
 						<br> 
 						<h5 class="h5 text-center">Web development education</h5>
-						<table>
-							<tr class="w100">
-								<td>The Learning People</td>
+						<!-- bootstrap table layout https://getbootstrap.com/docs/4.0/content/tables/ -->
+						<table class="table">
+							<tr>
+								<td><strong>The Learning People</strong></td>
 								<td>Nov. 21 - Present</td>
-							</th>
+							</tr>
 							<tr>
 								<td colspan="2">Skillsoft Front End Developer 2021</td>
 							<tr>
 						</table>
 					</div>
 				</div>
-				<div class="col-sm-1">
+				<div class="col-md-1">
 				</div>
 			</div>
-			<div class="col-sm-7" id="image-padding">
+			<!-- bootstrap breakpoints determined using this link as reference https://getbootstrap.com/docs/4.0/content/tables/ -->
+			<div class="col-md-7 d-none d-md-block" id="image-padding">
+				<div class="align-items-center d-flex h-100">
+					<div id="selfie">
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
 </body>
 <footer>
 	<!-- bootstrap js dependencies, jQuery and popper.js -->
-	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
 	<script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
 	<!-- bootstrep js cdn -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 	<!-- fontawesome cdn -->

@@ -1,44 +1,37 @@
-@media screen and (min-width: 1200px) and (min-height: 850px){
-	body {
-		background-image: url("../media/selfie.jpg");
-		background-repeat: no-repeat;
-		background-position: right top;
-	}
-	#wrapper {
-		height: 100vh;
-	}
-	#content {
-		width: 100%;
-		padding-left: 15px;
-		text-align: justify;
-	}
-	#menu {
-		z-index: 1;
-		padding: 0;
-		text-align: center;
-	}
-	.menu-icon {
-		font-size: 25px;
-	}
-	.h-black:hover {
-		color: black;
-	}
-	.h-blue:hover {
-		color: blue;
-	}
-	.h-purple:hover {
-		color: purple;
-	}
-	#email-link, #email-link:hover, #email-link:visited {
-		text-decoration: none;
-		color: black;
-	}
+#image-padding {
+	height: 100vh;
 }
-@media screen and (max-width: 1199px( {
-	#menu {
-		text-align: center;
-		z-index: 1;
-		display: flex!important;
-		order: 2;
-	}
+#selfie {
+	width: 100%;
+	height: 80vh;
+	background-image: url("../media/selfie.jpg");
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-size: 100% auto;
+}
+#content {
+	width: 100%;
+	padding-left: 15px;
+	text-align: justify;
+}
+#menu {
+	z-index: 1;
+	padding: 0;
+	text-align: center;
+}
+.menu-icon {
+	font-size: 25px;
+}
+.h-black:hover {
+	color: black;
+}
+.h-blue:hover {
+	color: blue;
+}
+.h-purple:hover {
+	color: purple;
+}
+#email-link, #email-link:hover, #email-link:visited {
+	text-decoration: none;
+	color: black;
 }
