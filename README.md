@@ -24,17 +24,17 @@ about my website
 ## Features
 
 ### All Pages
--[x] Fully operational menu which links to all pages of the website, including hover information since they are icons as opposed to named menu headers
--[ ] 
+- [x] Fully operational menu which links to all pages of the website, including hover information since they are icons as opposed to named menu headers
+- [ ] 
 ### index.html
--[x] A working "accordion"-style information display, which allows easy navigation between information without taking up a lot of room.
+- [x] A working "accordion"-style information display, which allows easy navigation between information without taking up a lot of room.
 ### portfolio.html
--[ ] Thumbnails of portfolio's website pages.
+- [ ] Thumbnails of portfolio's website pages.
 -[ ] Slider or scrolling information layout to ease the process of looking through the information.
 ### contact-me.html
--[x] Working form output which allows the user to contact the owner.
--[x] e-mail input field, following the HTML5 standard e-mail input format. 
--[x] Form checkbox requesting if the user would like to receive addition information. 
+- [x] Working form output which allows the user to contact the owner.
+- [x] e-mail input field, following the HTML5 standard e-mail input format. 
+- [x] Form checkbox requesting if the user would like to receive addition information. 
 ## Technologies Used
 - [HTML5](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
 -- The structure of the website was developed with HTML5
