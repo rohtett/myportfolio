@@ -36,20 +36,44 @@
 							<a class="btn fab fa-instagram h-purple"></a>
 						</div>
 						<br>
-						<p>Young learner, persuring web development as a career and a hobby. A hard working individual who doesn't know when to give up when their creativity is challenged.</p>
-						<p>Love brain teasers, intellectual challenges and puzzles.</p>
-						<br> 
-						<h5 class="h5 text-center">Web development education</h5>
-						<!-- bootstrap table layout https://getbootstrap.com/docs/4.0/content/tables/ -->
-						<table class="table">
-							<tr>
-								<td><strong>The Learning People</strong></td>
-								<td>Nov. 21 - Present</td>
-							</tr>
-							<tr>
-								<td colspan="2">Skillsoft Front End Developer 2021</td>
-							<tr>
-						</table>
+						<!-- bootstrap accordion https://getbootstrap.com/docs/5.0/components/accordion/ -->
+						<div class="accordion" id="accordion">
+							<div class="accordion-item">
+								<h2 class="accordion-header" id="headingOne">
+									 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+									Personal Summary
+									</button>
+								</h2>
+								<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordion">
+									<div class="accordion-body">
+										<p>Young learner, persuring web development as a career and a hobby. A hard working individual who doesn't know when to give up when their creativity is challenged. Love brain teasers, intellectual challenges and puzzles.</p>
+									</div>
+								</div>
+							</div>
+							<div class="accordion" id="accordion">
+								<div class="accordion-item">
+									<h2 class="accordion-header" id="headingTwo">
+										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+										Web Development Education
+										</button>
+									</h2>
+								</div>
+								<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion">
+									<div class="accordion-body">
+										<!-- bootstrap table layout https://getbootstrap.com/docs/4.0/content/tables/ -->
+										<table class="table">
+											<tr>
+												<td><strong>The Learning People</strong></td>
+												<td>Nov. 21 - Present</td>
+											</tr>
+											<tr>
+												<td colspan="2">Skillsoft Front End Developer 2021</td>
+											<tr>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="col-md-1">
