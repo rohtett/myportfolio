@@ -1,9 +1,7 @@
 # My Portfolio
 about my website
 ## User Experience
-- Potential business owners who may wish to request a website to be made.
-- Other potential individuals who may want to commission a website made by me.
-- Potential employers who may wish to view my skillset as well as learn more about me. 
+This is a website I created to showcase my skills with programming and my design ideas. It will mostly be used by individuals who have an interest in my work, as well as business owners or employers who may want to commission my work. 
 ### User Stories
 - As the creator, I want people to be able to see my skill-set and experience what it is I can do with my programming knowledge. I want them to be able to learn about my design practices and see if it I can create something for the other users of the website.
 - Business owners, or other individuals who would otherwise want want to commission a website, would want to see if the websites I create is something they want for their business (or personal use) and to see if any of the qualities they are looking for is reflected within it.
@@ -30,7 +28,7 @@ about my website
 - [x] A working "accordion"-style information display, which allows easy navigation between information without taking up a lot of room.
 ### portfolio.html
 - [ ] Thumbnails of portfolio's website pages.
--[ ] Slider or scrolling information layout to ease the process of looking through the information.
+- [ ] Slider or scrolling information layout to ease the process of looking through the information.
 ### contact-me.html
 - [x] Working form output which allows the user to contact the owner.
 - [x] e-mail input field, following the HTML5 standard e-mail input format. 
@@ -44,7 +42,7 @@ about my website
 -- I used this to implement a Grid system for layout, as well as many of their built-in components notably the collapsable "Accordion" menu.
 - [Font Awesome](https://fontawesome.com/)
 -- I used this to implement all of the social media links, as well as the menu icons for my website. 
-- [NotePad++]
+- [NotePad++](https://notepad-plus-plus.org/downloads/)
 -- My website was coded using Notepad++ as the development program
 - [Balsamiq](https://balsamiq.com/)
 -- I used this website to help me create the wireframes that show my plans for the website.

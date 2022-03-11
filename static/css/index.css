@@ -32,6 +32,26 @@
 .h-purple:hover {
 	color: purple;
 }
+.accordion-button:not(.collapsed) {
+	color: white;
+	background-color: black;
+}
+#output {
+	margin: auto;
+	height: 180px;
+	width: 240px;
+	border: solid black;
+	background-image: url("../media/project-one.png");
+}
+.projects input {
+	appearance: none;
+}
+.projects img {
+	border: solid transparent;
+}
+.projects input:checked+img {
+	border: solid black;
+}
 #email-link, #email-link:hover, #email-link:visited {
 	text-decoration: none;
 	color: black;
