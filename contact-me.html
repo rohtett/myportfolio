@@ -12,7 +12,7 @@
 <body>
 	<div class="container" id="container">
 		<div class="row h-100" id="wrapper">
-			<div class="col-md-5 row" id="container">
+			<div class="col-md-5 row">
 				<div class="col-md-3 align-items-center d-flex">
 					<nav>
 						<a class="btn menu-icon fas fa-info-circle" href="index.html" data-toggle="tooltip" data-placement="left" title="about me"></a>
@@ -25,14 +25,14 @@
 					</nav>
 				</div>
 				<div class="col-md-8 d-flex align-items-center h-100">
-					<div id="content">
+					<main id="content">
 					<br>
 						<h5 class="h5 text-center">Contact</h5>
 						<br>
 						<div class="d-flex justify-content-around">
 						<p class="fas fa-phone-alt"> +44 7432854516</p>
 						<!-- https://www.tutorialspoint.com/html/html_email_links.htm -->
-						<p class="fas fa-envelope"> <a id="email-link" title="e-mail me directly" href="mailto:raheet@hotmail.co.uk?subject=Regarding your portfolio..."> raheet@hotmail.co.uk</a></p>
+						<p class="fas fa-envelope"> <a id="email-link" title="e-mail me directly" href="mailto:raheet@hotmail.co.uk?subject=Regarding%20your%20portfolio..."> raheet@hotmail.co.uk</a></p>
 						</div>
 						<div class="d-flex btn-group">
 							<a class="btn fab fa-github h-black"></a>
@@ -45,32 +45,33 @@
 								<input class="form-control" id="email" name="email" type="email" placeholder="e-mail address" required>
 							</div>
 							<div class="form-group m-4">
-								<input class="form-control" id="contact-number" name="contact-number" type="number" placeholder="contact number" name="phone">
+								<input class="form-control" id="contact-number" name="contact-number" type="number" placeholder="contact number">
 							</div>
 							<div class="form-group m-4">
 								<textarea class="form-control" id="message" name="message" placeholder="your message here" required></textarea>
 							</div>
 							<div class="form-check m-4">
 								<input class="form-check-input" id="cv" name="cv" type="checkbox">
-								<label class="form-check-label" for "cv">request a CV</label>
+								<label class="form-check-label" for="cv">request a CV</label>
 							</div>
 							<button class="btn btn-primary float-right m-4" type="submit">send</button>
 						</form>
-					</div>
+					</main>
 				</div>
 				<div class="col-md-1">
 				</div>
 			</div>
 			<div class="col-md-7 d-none d-md-block" id="image-padding">
 				<div class="align-items-center d-flex h-100">
-					<div id="selfie">
-					</div>
+					<aside id="selfie">
+					</aside>
 				</div>
 			</div>
 		</div>
 	</div>
-</body>
-<footer>
+	<footer>
+	Rohit Naidu &copy; 2022
+	</footer>
 	<!-- bootstrap js dependencies, jQuery and popper.js -->
 	<script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
@@ -79,5 +80,5 @@
 	<!-- fontawesome cdn -->
 	<script src="https://kit.fontawesome.com/03b268d098.js" crossorigin="anonymous"></script>
 	<script src="static/js/index.js"></script>
-</footer>
+</body>
 </html>
