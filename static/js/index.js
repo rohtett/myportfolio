@@ -5,14 +5,17 @@ window.onload=function(){
 	  $('[data-toggle="tooltip"]').tooltip()
 	})
 	var projects= document.querySelectorAll(".projects");
-	for (let i=0; i < projects.length; i++) {
-		projects[i].addEventListener("mousedown", function() {
-			var backgroundImage= "url('static/media/"+this.firstElementChild.id+".png')";
+	projects.forEach(input => {
+		function show(input) {
+			var current=("."+input.firstElementChild.id)
+			$(current).show();
+		}
+		input.addEventListener("mousedown", function() {
+			var backgroundImage= "url('static/media/"+input.firstElementChild.id+".png')";
 			document.getElementById("output").style.backgroundImage= backgroundImage;
-			collapse= this.firstElementChild.id
-			var current=("."+this.firstElementChild.id)
-			$(".collapse").collapse("hide");
-			$(current).collapse("show");
+			collapse= input.firstElementChild.id
+			$(".collapse").hide();
+			show(input);
 		});
-	}
+	});
 };
