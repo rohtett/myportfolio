@@ -10,7 +10,9 @@ window.onload=function(){
 			var backgroundImage= "url('static/media/"+this.firstElementChild.id+".png')";
 			document.getElementById("output").style.backgroundImage= backgroundImage;
 			collapse= this.firstElementChild.id
-			$(".collapse").collapse("show");
+			var current=("."+this.firstElementChild.id)
+			$(".collapse").collapse("hide");
+			$(current).collapse("show");
 		});
 	}
 };

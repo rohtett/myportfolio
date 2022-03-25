@@ -10,12 +10,22 @@
 	<link rel="stylesheet" href="static/css/index.css">
 </head>
 <body>
-	<div class="container" id="container">
+	<div class="container h-100" id="container">
 		<div class="row h-100" id="wrapper">
 		<!-- bootstrap grid https://getbootstrap.com/docs/4.0/layout/grid/ -->
-			<div class="col-md-5 row">
+			<div class="col-md-6 row">
 				<div class="col-md-3 align-items-center d-flex">
 					<nav class ="btn-group-vertical" id="menu">
+					<!-- fontawesome stuff https://fontawesome.com/v6.0 -->
+						<a class="btn menu-icon fas fa-info-circle" href="index.html" data-toggle="tooltip" data-placement="left" title="about me"></a>
+						<br>
+						<br>
+						<a class="btn menu-icon fas fa-file-powerpoint" href="my-portfolio.html" data-toggle="tooltip" data-placement="left" title="portfolio"></a>
+						<br>
+						<br>
+						<a class="btn menu-icon fas fa-address-book" href="contact-me.html" data-toggle="tooltip" data-placement="left" title="contact details"></a>
+					</nav>
+					<nav class ="btn-group" id="menu-768">
 					<!-- fontawesome stuff https://fontawesome.com/v6.0 -->
 						<a href="index.html" class="btn menu-icon fas fa-info-circle" data-toggle="tooltip" title="about me"></a>
 						<br>
@@ -66,7 +76,7 @@
 											<td>Nov. 21 - Present</td>
 										</tr>
 										<tr>
-											<td colspan="2">Skillsoft Front End Developer 2021</td>
+											<td colspan="2"><i>Skillsoft Front End Developer 2021</i></td>
 										</tr>
 									</table>
 								</div>
@@ -78,7 +88,7 @@
 				</div>
 			</div>
 			<!-- bootstrap breakpoints determined using this link as reference https://getbootstrap.com/docs/4.0/content/tables/ -->
-			<div class="col-md-7 d-none d-md-block" id="image-padding">
+			<div class="col-md-6 d-none d-md-block" id="image-padding">
 				<div class="align-items-center d-flex h-100">
 					<aside id="selfie">
 					</aside>
@@ -87,7 +97,9 @@
 		</div>
 	</div>
 	<footer>
-	Rohit Naidu &copy; 2022
+	<p id="footer">
+		Rohit Naidu &copy; 2022
+	</p>
 	</footer>
 	<!-- bootstrap js dependencies, jQuery and popper.js -->
 	<script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>

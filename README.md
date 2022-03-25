@@ -23,12 +23,12 @@ This is a website I created to showcase my skills with programming and my design
 
 ### All Pages
 - [x] Fully operational menu which links to all pages of the website, including hover information since they are icons as opposed to named menu headers
-- [ ] 
+- [x] Changing layout for various viewport sizes. 
 ### index.html
 - [x] A working "accordion"-style information display, which allows easy navigation between information without taking up a lot of room.
 ### portfolio.html
-- [ ] Thumbnails of portfolio's website pages.
-- [ ] Slider or scrolling information layout to ease the process of looking through the information.
+- [x] Thumbnails of portfolio's website pages.
+- [x] Slider or scrolling information layout to ease the process of looking through the information.
 ### contact-me.html
 - [x] Working form output which allows the user to contact the owner.
 - [x] e-mail input field, following the HTML5 standard e-mail input format. 
@@ -51,6 +51,7 @@ This is a website I created to showcase my skills with programming and my design
 - [GitHub](https://github.com/)
 -- GitHub not only is hosted my website, but also was used to track all of my commits and pushes into a remote repository. 
 ## Testing 
+
 ### User Stories
 
 ### Responsive Testing
@@ -59,26 +60,27 @@ This is a website I created to showcase my skills with programming and my design
 - I used the W3C HTML Validator tool to validate my HTML code.
 - I used the W3C CSS Validator tool to validate my CSS code.
 ### Bugs and Problems Found
+- When quickly changing through the portfolio information, the Javascript will improperly show multiple messgages instead of a single one for each project. 
 
 ## Deployment
 I used GitHub Pages to deploy my website. It was produced as follows:
 1. Downloaded gitforwindows to enable the git terminal for Notepad++
 2. Intilise git `git init`
 3. `git add .` the files to commit them`git commit -m "first commit"` 
-4. 
+4. `git push` would then update the code on the website to the newest version. 
+5. Click settings on the GitHub page and navigate to Pages. 
+6. Select the master brance /root directory and press save to deploy the website to GitHub Pages. 
 
 ### Repository Link
-[link](link)
+[link](https://rohtett.github.io/myportfolio/)
 ### Running Code Locally
 How to run the code locally:
-1. Follow the link to my [GitHub repository](link)
+1. Follow the link to my [GitHub repository](https://github.com/rohtett/myportfolio)
 2. Click "Code" and select "Download ZIP"
 3. Once downloaded, extrade the ZIP file and launch `index.html` to open the landing page.
 
 ## Credits
-### Content
-
-### Media
 
 ### Acknowledgements
-- 
+- Inspiration for the layout gathered from various example portfolio pages through the internet.
+- Thanks to my mentor, Sunny Hebbar, for the feedback on my project and helping with the creation of my README.md page, by providing information on what to include. 

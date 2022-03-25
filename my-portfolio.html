@@ -13,15 +13,26 @@
 	<div class="container" id="container">
 		<div class="row h-100" id="wrapper">
 			<div class="col-md-5 row">
-				<div class="col-md-3 d-none d-sm-flex align-items-center">
-					<nav class ="" id="menu">
-						<a href="index.html" class="btn menu-icon fas fa-info-circle" data-toggle="tooltip" data-placement="left" title="about me"></a>
+				<div class="col-md-3 d-sm-flex align-items-center">
+					<nav class ="btn-group-vertical" id="menu">
+					<!-- fontawesome stuff https://fontawesome.com/v6.0 -->
+						<a class="btn menu-icon fas fa-info-circle" href="index.html" data-toggle="tooltip" data-placement="left" title="about me"></a>
 						<br>
 						<br>
 						<a class="btn menu-icon fas fa-file-powerpoint" href="my-portfolio.html" data-toggle="tooltip" data-placement="left" title="portfolio"></a>
 						<br>
 						<br>
 						<a class="btn menu-icon fas fa-address-book" href="contact-me.html" data-toggle="tooltip" data-placement="left" title="contact details"></a>
+					</nav>
+					<nav class ="btn-group" id="menu-768">
+					<!-- fontawesome stuff https://fontawesome.com/v6.0 -->
+						<a href="index.html" class="btn menu-icon fas fa-info-circle" data-toggle="tooltip" title="about me"></a>
+						<br>
+						<br>
+						<a class="btn menu-icon fas fa-file-powerpoint" href="my-portfolio.html" data-toggle="tooltip" title="portfolio"></a>
+						<br>
+						<br>
+						<a class="btn menu-icon fas fa-address-book" href="contact-me.html" data-toggle="tooltip" title="contact details"></a>
 					</nav>
 				</div>
 				<div class="col-md-8 d-flex align-items-center h-100">
@@ -31,28 +42,28 @@
 						<div id="output">
 						</div>
 						<div class="collapse project-one">
-							Project one info.
+							<span style="color:red">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec ligula eget risus fringilla suscipit. Nulla facilisi. Donec convallis sem est, sed porttitor ipsum tempus ut. Nulla sagittis orci nec nulla lobortis, vel ullamcorper ipsum mollis. Integer ut sem vitae.</span>
 						</div>
 						<div class="collapse project-two">
-							Project two info.
+							<span style="color:orange">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec ligula eget risus fringilla suscipit. Nulla facilisi. Donec convallis sem est, sed porttitor ipsum tempus ut. Nulla sagittis orci nec nulla lobortis, vel ullamcorper ipsum mollis. Integer ut sem vitae.</span>
 						</div>
 						<div class="collapse project-three">
-							Project three info.
+							<span style="color:yellow">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec ligula eget risus fringilla suscipit. Nulla facilisi. Donec convallis sem est, sed porttitor ipsum tempus ut. Nulla sagittis orci nec nulla lobortis, vel ullamcorper ipsum mollis. Integer ut sem vitae.</span>
 						</div>
 						<div class="collapse project-four">
-							Project four info.
+							<span style="color:green">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec ligula eget risus fringilla suscipit. Nulla facilisi. Donec convallis sem est, sed porttitor ipsum tempus ut. Nulla sagittis orci nec nulla lobortis, vel ullamcorper ipsum mollis. Integer ut sem vitae.</span>
 						</div>
 						<div class="collapse project-five">
-							Project five info.
+							<span style="color:cyan">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec ligula eget risus fringilla suscipit. Nulla facilisi. Donec convallis sem est, sed porttitor ipsum tempus ut. Nulla sagittis orci nec nulla lobortis, vel ullamcorper ipsum mollis. Integer ut sem vitae.</span>
 						</div>
 						<div class="collapse project-six">
-							Project six info.
+							<span style="color:blue">PLorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec ligula eget risus fringilla suscipit. Nulla facilisi. Donec convallis sem est, sed porttitor ipsum tempus ut. Nulla sagittis orci nec nulla lobortis, vel ullamcorper ipsum mollis. Integer ut sem vitae.</span>
 						</div>
 						<div class="collapse project-seven">
-							Project seven info.
+							<span style="color:purple">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec ligula eget risus fringilla suscipit. Nulla facilisi. Donec convallis sem est, sed porttitor ipsum tempus ut. Nulla sagittis orci nec nulla lobortis, vel ullamcorper ipsum mollis. Integer ut sem vitae.</span>
 						</div>
 						<div class="collapse project-eight">
-							Project eight info.
+							<span style="color:violet">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec ligula eget risus fringilla suscipit. Nulla facilisi. Donec convallis sem est, sed porttitor ipsum tempus ut. Nulla sagittis orci nec nulla lobortis, vel ullamcorper ipsum mollis. Integer ut sem vitae.</span>
 						</div>
 						<br>
 						<section class="input-group d-flex justify-content-center">
@@ -103,7 +114,9 @@
 		</div>
 	</div>
 	<footer>
-	Rohit Naidu &copy; 2022
+	<p id="footer">
+		Rohit Naidu &copy; 2022
+	</p>
 	</footer>
 	<!-- bootstrap js dependencies, jQuery and popper.js -->
 	<script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>

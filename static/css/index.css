@@ -23,9 +23,23 @@
 	padding: 0;
 	text-align: center;
 }
+#menu-768 {
+	text-align: center;
+	display: none;
+	width: 100%;
+}
 
 .menu-icon {
 	font-size: 25px;
+}
+
+@media (max-width: 767px) {
+	#menu {
+		display: none;
+	}
+	#menu-768 {
+		display: flex;
+	}
 }
 
 .h-black:hover {
@@ -40,15 +54,23 @@
 	color: purple;
 }
 
+.accordion-button {
+	padding: 10px;
+}
 .accordion-button:not(.collapsed) {
 	color: white;
 	background-color: black;
 }
+.accordion-body {
+	padding: 10px;
+}
+.accordion-body td{
+	padding: 0px;
+}
 
 #output {
 	margin: auto;
-	height: 180px;
-	width: 240px;
+	padding-top: 65%;
 	border: solid black;
 	background-image: url("../media/project-one.png");
 }
@@ -68,4 +90,15 @@
 #email-link, #email-link:hover, #email-link:visited {
 	text-decoration: none;
 	color: black;
+}
+.form-group, .form-check {
+	margin-bottom: 10px;
+}
+footer {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+}
+#footer {
+	text-align: center;
 }
